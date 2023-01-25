@@ -45,15 +45,15 @@
     <div class="slideshow-container">
 
         <div class="mySlides fade">
-            <img src="/image/c1.webp " style="width:100%">
+            <img src="image/c1.webp " style="width:100%">
         </div>
 
         <div class="mySlides fade">
-            <img src="/image/c2.webp  " style="width:100%">
+            <img src="image/c2.webp  " style="width:100%">
         </div>
 
         <div class="mySlides fade">
-            <img src="/image/c3.webp  " style="width:100%">
+            <img src="image/c3.webp  " style="width:100%">
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -81,7 +81,7 @@
         
         -->
         <div class="card">
-            <img src="/image/c3.webp" alt="cake">
+            <img src="image/c3.webp" alt="cake">
             <div class="cake-info">
                 <h3>Chocolate Cake</h3>
                 <p>Rs. 500</p>
@@ -91,7 +91,7 @@
         </div>
 
         <div class="card">
-            <img src="/image/c3.webp" alt="cake">
+            <img src="image/c3.webp" alt="cake">
             <div class="cake-info">
                 <h3>Chocolate Cake</h3>
                 <p>Rs. 500</p>
@@ -101,7 +101,7 @@
         </div>
 
         <div class="card">
-            <img src="/image/c3.webp" alt="cake">
+            <img src="image/c3.webp" alt="cake">
             <div class="cake-info">
                 <h3>Chocolate Cake</h3>
                 <p>Rs. 500</p>
@@ -111,7 +111,7 @@
         </div>
 
         <div class="card">
-            <img src="/image/c3.webp" alt="cake">
+            <img src="image/c3.webp" alt="cake">
             <div class="cake-info">
                 <h3>Chocolate Cake</h3>
                 <p>Rs. 500</p>
@@ -121,7 +121,7 @@
         </div>
 
         <div class="card">
-            <img src="/image/c3.webp" alt="cake">
+            <img src="image/c3.webp" alt="cake">
             <div class="cake-info">
                 <h3>Chocolate Cake</h3>
                 <p>Rs. 500</p>
@@ -135,10 +135,10 @@
 
 
 
-        <div class="go-up display-none" onclick="scrollToTop()">
-            <i class="fas fa-chevron-up h4 pt-2"></i>
-        </div>
-    
+    <div class="go-up display-none" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up h4 pt-2"></i>
+    </div>
+
 
 
 
@@ -177,20 +177,20 @@
         var myNav = document.getElementsByClassName("nav")[0];
         var goUp = document.getElementsByClassName("go-up")[0];
         window.onscroll = function () {
-            if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+            if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200) {
                 myNav.classList.add("fixed");
                 myNav.classList.remove("static");
-                goUp.classList.add ("display-block") ;
-                goUp.classList.remove ("display-none") ;
+                goUp.classList.add("display-block");
+                goUp.classList.remove("display-none");
 
 
             }
             else {
-                
+
                 myNav.classList.add("static");
                 myNav.classList.remove("fixed");
-                goUp.classList.add  ("display-none") ;
-                goUp.classList.remove ("display-block") ;
+                goUp.classList.add("display-none");
+                goUp.classList.remove("display-block");
             }
         };
 
